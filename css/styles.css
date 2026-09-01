@@ -1034,3 +1034,105 @@ footer a {
     }
 
 }
+
+/* =========================================================
+   V2.1 — MOBILE POLISH
+========================================================= */
+
+/* Hero más compacto */
+
+.hero {
+    height: 485px;
+}
+
+.hero h1 {
+    font-size: clamp(45px, 12vw, 62px);
+}
+
+.hero-content {
+    bottom: 22px;
+}
+
+
+/* Productos más compactos */
+
+.product-card {
+    flex: 0 0 72%;
+}
+
+.product-image {
+    height: 225px;
+}
+
+
+/* Navegación inferior más fina */
+
+:root {
+    --bottom-nav-height: 68px;
+}
+
+.bottom-nav {
+    width: calc(100% - 28px);
+
+    height: 68px;
+
+    bottom: max(
+        8px,
+        env(safe-area-inset-bottom)
+    );
+
+    border-radius: 21px;
+
+    padding: 5px;
+}
+
+.bottom-item {
+    height: 56px;
+
+    border-radius: 17px;
+
+    font-size: 9px;
+}
+
+.bottom-item span {
+    font-size: 19px;
+}
+
+
+/* Más aire para que el menú no tape
+   el final de cada sección */
+
+.bottom-space {
+    height: 95px;
+}
+
+
+/* Scroll horizontal más natural */
+
+.product-scroll {
+    margin-right: -18px;
+    padding-right: 45px;
+}
+
+
+/* Categorías ligeramente más compactas */
+
+.category {
+    min-width: 88px;
+
+    padding: 12px 14px;
+}
+
+
+/* Gallery más estilo app */
+
+.gallery img {
+    transition:
+        transform .2s ease,
+        opacity .2s ease;
+}
+
+.gallery img:active {
+    transform: scale(.97);
+    opacity: .92;
+}
