@@ -1,86 +1,596 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="El Rincón de Nico: tortas, desayunos y detalles especiales hechos con amor en Ipiales, Nariño.">
-  <meta property="og:title" content="El Rincón de Nico">
-  <meta property="og:description" content="Hogar, café y buenos momentos. Tortas, desayunos y detalles en Ipiales.">
-  <meta property="og:type" content="website">
-  <title>El Rincón de Nico | Ipiales</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El Rincón de Nico | Ipiales</title>
+
+    <meta name="description"
+        content="Tortas, quimbolitos, desayunos y detalles hechos con amor en Ipiales, Nariño.">
+
+    <meta name="theme-color" content="#68704A">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-<header class="nav">
-  <a class="brand" href="#inicio"><img src="assets/img/logo-provisional.jpg" alt="El Rincón de Nico"><span>El Rincón de Nico</span></a>
-  <button class="menu" aria-label="Abrir menú">☰</button>
-  <nav>
-    <a href="#productos">Productos</a><a href="#historia">Nosotros</a><a href="#galeria">Galería</a>
-    <a class="nav-cta" href="https://wa.me/573214504819?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20El%20Rinc%C3%B3n%20de%20Nico%20y%20quisiera%20hacer%20un%20pedido." target="_blank" rel="noopener">Haz tu pedido</a>
-  </nav>
-</header>
 
-<main>
-<section class="hero" id="inicio">
-  <div class="hero-copy">
-    <span class="eyebrow">Repostería artesanal · Ipiales</span>
-    <h1>Dulces momentos,<br><em>hechos con amor.</em></h1>
-    <p>Tortas, quimbolitos, desayunos y detalles preparados como en casa para convertir cada ocasión en un recuerdo delicioso.</p>
-    <div class="actions">
-      <a class="btn primary" href="https://wa.me/573214504819?text=Hola%2C%20quisiera%20hacer%20un%20pedido%20en%20El%20Rinc%C3%B3n%20de%20Nico." target="_blank" rel="noopener">Pedir por WhatsApp</a>
-      <a class="btn secondary" href="#productos">Ver productos</a>
+    <!-- =========================
+         APP
+    ========================== -->
+
+    <div class="app">
+
+        <!-- HEADER -->
+
+        <header class="app-header">
+
+            <div class="brand">
+
+                <div class="brand-logo">
+                    <img src="assets/img/logo-provisional.jpg"
+                        alt="El Rincón de Nico">
+                </div>
+
+                <div class="brand-info">
+                    <span class="brand-name">
+                        El Rincón de Nico
+                    </span>
+
+                    <span class="brand-location">
+                        Ipiales, Nariño
+                    </span>
+                </div>
+
+            </div>
+
+            <a
+                class="instagram-button"
+                href="https://www.instagram.com/elrincondenico1108/"
+                target="_blank"
+                aria-label="Instagram">
+
+                ◎
+
+            </a>
+
+        </header>
+
+
+        <!-- HERO -->
+
+        <section class="hero" id="inicio">
+
+            <img
+                src="assets/img/torta-rosa.jpg"
+                alt="Torta artesanal El Rincón de Nico"
+                class="hero-image">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="availability">
+                    <span class="availability-dot"></span>
+                    Pedidos disponibles
+                </div>
+
+                <h1>
+                    Hecho como<br>
+                    <span>en casa.</span>
+                </h1>
+
+                <p>
+                    Sabores que convierten momentos
+                    en recuerdos.
+                </p>
+
+                <a
+                    class="hero-button"
+                    href="https://wa.me/573214504819?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20El%20Rinc%C3%B3n%20de%20Nico%20y%20quisiera%20hacer%20un%20pedido."
+                    target="_blank">
+
+                    Hacer un pedido
+
+                    <span>→</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORÍAS -->
+
+        <section class="categories-section" id="productos">
+
+            <div class="section-title">
+
+                <div>
+                    <span class="section-label">
+                        DESCUBRE
+                    </span>
+
+                    <h2>
+                        ¿Qué se te antoja?
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="categories">
+
+                <button class="category active">
+
+                    <span class="category-icon">
+                        🍰
+                    </span>
+
+                    <span>
+                        Tortas
+                    </span>
+
+                </button>
+
+
+                <button class="category">
+
+                    <span class="category-icon">
+                        🫔
+                    </span>
+
+                    <span>
+                        Quimbolitos
+                    </span>
+
+                </button>
+
+
+                <button class="category">
+
+                    <span class="category-icon">
+                        🎁
+                    </span>
+
+                    <span>
+                        Sorpresas
+                    </span>
+
+                </button>
+
+
+                <button class="category">
+
+                    <span class="category-icon">
+                        ☕
+                    </span>
+
+                    <span>
+                        Desayunos
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAVORITOS -->
+
+        <section class="favorites">
+
+            <div class="section-title">
+
+                <div>
+
+                    <span class="section-label">
+                        LOS FAVORITOS
+                    </span>
+
+                    <h2>
+                        Hechos con amor
+                    </h2>
+
+                </div>
+
+                <a href="#galeria">
+                    Ver todos
+                </a>
+
+            </div>
+
+
+            <div class="product-scroll">
+
+
+                <!-- PRODUCTO -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="assets/img/torta-cumple.jpg"
+                            alt="Tortas personalizadas">
+
+                        <span class="product-tag">
+                            Favorito
+                        </span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Tortas personalizadas
+                        </h3>
+
+                        <p>
+                            Diseñadas especialmente
+                            para tu celebración.
+                        </p>
+
+                        <a
+                            href="https://wa.me/573214504819?text=Hola%2C%20quisiera%20cotizar%20una%20torta%20personalizada."
+                            target="_blank">
+
+                            Consultar
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="assets/img/torta-banano.jpg"
+                            alt="Sabores de casa">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Sabores de casa
+                        </h3>
+
+                        <p>
+                            Recetas preparadas
+                            para disfrutar y compartir.
+                        </p>
+
+                        <a
+                            href="https://wa.me/573214504819?text=Hola%2C%20quisiera%20conocer%20los%20sabores%20disponibles."
+                            target="_blank">
+
+                            Ver sabores
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="assets/img/frutas.jpg"
+                            alt="Detalles y sorpresas">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Detalles & sorpresas
+                        </h3>
+
+                        <p>
+                            Una forma diferente
+                            de decir: pensé en ti.
+                        </p>
+
+                        <a
+                            href="https://wa.me/573214504819?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20detalles%20y%20sorpresas."
+                            target="_blank">
+
+                            Consultar
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SABORES -->
+
+        <section class="flavors">
+
+            <div class="flavors-decoration">
+                ♡
+            </div>
+
+            <span class="section-label light">
+                PARA COMPARTIR
+            </span>
+
+            <h2>
+                Un sabor para<br>
+                cada momento.
+            </h2>
+
+            <div class="flavor-list">
+
+                <span>
+                    Chocolate
+                </span>
+
+                <span>
+                    Vainilla
+                </span>
+
+                <span>
+                    Tres Leches
+                </span>
+
+                <span>
+                    Red Velvet
+                </span>
+
+            </div>
+
+            <a
+                href="https://wa.me/573214504819?text=Hola%2C%20%C2%BFqu%C3%A9%20sabores%20tienen%20disponibles%3F"
+                target="_blank">
+
+                Consultar disponibilidad →
+
+            </a>
+
+        </section>
+
+
+        <!-- HISTORIA -->
+
+        <section class="story">
+
+            <div class="story-image">
+
+                <img
+                    src="assets/img/torta-snoopy.jpg"
+                    alt="El Rincón de Nico">
+
+            </div>
+
+
+            <div class="story-content">
+
+                <span class="section-label">
+                    NUESTRA HISTORIA
+                </span>
+
+                <h2>
+                    De nuestro hogar
+                    al tuyo.
+                </h2>
+
+                <p>
+                    El Rincón de Nico es un emprendimiento
+                    ipialeño que nace desde el amor de un
+                    hogar, transformando recetas caseras
+                    en dulces recuerdos.
+                </p>
+
+                <strong>
+                    Calidad · Frescura · Amor
+                </strong>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALERÍA -->
+
+        <section class="gallery-section" id="galeria">
+
+            <div class="section-title">
+
+                <div>
+
+                    <span class="section-label">
+                        MOMENTOS NICO
+                    </span>
+
+                    <h2>
+                        Inspírate
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <img
+                    src="assets/img/torta-rosa.jpg"
+                    alt="Torta personalizada">
+
+                <img
+                    src="assets/img/torta-religiosa.jpg"
+                    alt="Torta personalizada">
+
+                <img
+                    src="assets/img/frutas.jpg"
+                    alt="Detalle especial">
+
+                <img
+                    src="assets/img/torta-cumple.jpg"
+                    alt="Torta cumpleaños">
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA FINAL -->
+
+        <section class="final-cta">
+
+            <div class="heart">
+                ♡
+            </div>
+
+            <span class="section-label">
+                HABLEMOS
+            </span>
+
+            <h2>
+                ¿Tienes algo
+                especial en mente?
+            </h2>
+
+            <p>
+                Cuéntanos tu idea y preparemos
+                juntos algo delicioso.
+            </p>
+
+            <a
+                href="https://wa.me/573214504819?text=Hola%2C%20tengo%20una%20idea%20para%20un%20pedido%20y%20quisiera%20cotizarla."
+                target="_blank">
+
+                Escribir por WhatsApp
+
+            </a>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <strong>
+                El Rincón de Nico
+            </strong>
+
+            <p>
+                Ipiales · Nariño
+            </p>
+
+            <p>
+                321 450 4819
+            </p>
+
+            <a
+                href="https://www.instagram.com/elrincondenico1108/"
+                target="_blank">
+
+                @elrincondenico1108
+
+            </a>
+
+        </footer>
+
+
+        <!-- espacio para navegación inferior -->
+
+        <div class="bottom-space"></div>
+
     </div>
-  </div>
-  <div class="hero-photo"><img src="assets/img/torta-rosa.jpg" alt="Torta artesanal de El Rincón de Nico"><span>Hecho con amor ♡</span></div>
-</section>
 
-<section class="section" id="productos">
-  <div class="section-head"><span class="eyebrow">Para cada ocasión</span><h2>Algo rico te está esperando</h2><p>Desde una torta para celebrar hasta un desayuno que sorprende.</p></div>
-  <div class="cards">
-    <article><img src="assets/img/torta-cumple.jpg" alt="Tortas personalizadas"><div><h3>Tortas</h3><p>Clásicas y personalizadas para tus fechas especiales.</p></div></article>
-    <article><img src="assets/img/frutas.jpg" alt="Detalles con frutas"><div><h3>Detalles & sorpresas</h3><p>Regalos preparados con cariño para alguien especial.</p></div></article>
-    <article><img src="assets/img/torta-banano.jpg" alt="Torta de banano"><div><h3>Quimbolitos & sabores de casa</h3><p>Tradición, sabor y cariño en cada bocado.</p></div></article>
-  </div>
-</section>
 
-<section class="flavors">
-  <div><span class="eyebrow">Nuestros sabores</span><h2>Elige tu favorito</h2><p>Chocolate · Vainilla · Tres Leches · Red Velvet, quimbolitos y más opciones según disponibilidad.</p></div>
-  <a class="btn light" href="https://wa.me/573214504819?text=Hola%2C%20%C2%BFqu%C3%A9%20sabores%20de%20torta%20tienen%20disponibles%3F" target="_blank" rel="noopener">Consultar sabores</a>
-</section>
+    <!-- =========================
+         BOTTOM NAV
+    ========================== -->
 
-<section class="story section" id="historia">
-  <div class="story-img"><img src="assets/img/torta-snoopy.jpg" alt="Torta personalizada"></div>
-  <div class="story-copy"><span class="eyebrow">Nuestra historia</span><h2>De nuestro hogar, a tus mejores recuerdos.</h2><p>El Rincón de Nico es un emprendimiento ipialeño que nace desde el amor de un hogar, transformando recetas caseras en dulces recuerdos.</p><p>Cada pedido se prepara buscando que se vea especial, sepa delicioso y haga sonreír a quien lo recibe.</p><strong>Calidad · Frescura · Amor en cada detalle.</strong></div>
-</section>
+    <nav class="bottom-nav">
 
-<section class="section" id="galeria">
-  <div class="section-head"><span class="eyebrow">Momentos Nico</span><h2>Hechos para celebrar</h2></div>
-  <div class="gallery">
-    <img src="assets/img/torta-rosa.jpg" alt="Torta rosa">
-    <img src="assets/img/frutas.jpg" alt="Arreglo de frutas">
-    <img src="assets/img/torta-religiosa.jpg" alt="Torta para celebración religiosa">
-    <img src="assets/img/torta-cumple.jpg" alt="Torta de cumpleaños">
-  </div>
-</section>
+        <a href="#inicio" class="bottom-item active">
 
-<section class="order">
-  <span class="eyebrow">¿Tienes una ocasión especial?</span>
-  <h2>Cuéntanos tu idea.<br>Nosotros le ponemos el sabor.</h2>
-  <p>Escríbenos por WhatsApp para consultar diseños, sabores y disponibilidad.</p>
-  <a class="btn primary" href="https://wa.me/573214504819?text=Hola%2C%20tengo%20una%20ocasi%C3%B3n%20especial%20y%20quisiera%20cotizar%20un%20pedido." target="_blank" rel="noopener">Quiero hacer un pedido</a>
-</section>
-</main>
+            <span>
+                ⌂
+            </span>
 
-<footer>
-  <div><strong>El Rincón de Nico</strong><p>Hogar, café y buenos momentos.</p></div>
-  <div><strong>Contacto</strong><p>321 450 4819 · 312 733 5298<br>Ipiales, Nariño</p></div>
-  <div><strong>Síguenos</strong><p><a href="https://www.instagram.com/elrincondenico1108/" target="_blank" rel="noopener">@elrincondenico1108</a></p></div>
-  <small>© <span id="year"></span> El Rincón de Nico.</small>
-</footer>
+            Inicio
 
-<a class="whatsapp" href="https://wa.me/573214504819?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20El%20Rinc%C3%B3n%20de%20Nico." target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
-<script src="js/main.js"></script>
-</body></html>
+        </a>
+
+
+        <a href="#productos" class="bottom-item">
+
+            <span>
+                ◫
+            </span>
+
+            Productos
+
+        </a>
+
+
+        <a href="#galeria" class="bottom-item">
+
+            <span>
+                ♡
+            </span>
+
+            Inspiración
+
+        </a>
+
+
+        <a
+            href="https://wa.me/573214504819?text=Hola%2C%20quisiera%20hacer%20un%20pedido."
+            target="_blank"
+            class="bottom-item order-item">
+
+            <span>
+                ✆
+            </span>
+
+            Pedir
+
+        </a>
+
+    </nav>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
